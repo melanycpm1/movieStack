@@ -75,13 +75,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
 
                 localStorage.setItem("favoritos", JSON.stringify(favoritos));
-                mostrarFavoritos();
+                //mostrarFavoritos();
             });
         });
     }
-    let $mainFavs = document.getElementById("mainFavs");
+    //let $mainFavs = document.getElementById("mainFavs");
 
-    function mostrarFavoritos() {
+    /*function mostrarFavoritos() {
         const favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
 
         if ($mainFavs) {
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
             console.error("Error: Elemento main-favs no encontrado.");
         }
-    }
+    }*/
 
     function filtrarPorNombreYGénero(peliculas) {
         $nameFilter.addEventListener("input", function () {
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
                 filtrarPorNombreYGénero(peliculas);
                 corazon();
-                mostrarFavoritos();
+                //mostrarFavoritos();
             } else {
                 throw new Error('Invalid response format: movies array not found');
             }
