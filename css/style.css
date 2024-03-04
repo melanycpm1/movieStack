@@ -1,0 +1,29 @@
+.header{
+    background-color: #023e8a;
+}
+.color_header{
+    color: #fcf7f7;
+}
+.backgroundColor{
+    background-color: #0077b6;
+}
+.h-w{
+    width: 80%;
+    height: 550px;
+}
+.body{
+    background-color: #034e76;
+}
+.h-main-index{
+    height: 1300px;
+}
+.main-peliculas-h{
+    height: 1500px;
+}
+.h-500px{
+    height: 550px;
+}
+/*.icono-corazon{
+    position: relative;
+    bottom: 200px ;
+}*/

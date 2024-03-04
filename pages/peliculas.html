@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="body">
+    <header class="header flex justify-between items-center fixed w-full h-20 bg-blue-950 z-50">
+        <div class="flex items-center">
+            <div>
+                <a href="#"><img src="../assets/icono/Moviestack_favicon.png" alt="" class="w-11/12 h-28 object-cover"></a>
+            </div>
+            <h1 class="text-3xl font-serif color_header cursor-pointer">Moviestack</h1>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <nav>
+                <ul class="flex gap-5 mr-3.5">
+                    <li class=""><a href="../index.html" class="font-serif color_header text-base">Home</a></li>
+                    <li class=""><a href="#" class="font-serif color_header text-base">Movie</a> </li>
+                    <li class=""><a href="./favoritos.html" class="font-serif color_header text-base">Favs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-peliculas-h">
+        <form action="" class="relative top-36 flex justify-around">
+            <select id="genreFilter" name="genreFilter" class="">
+                <option value="All">genero</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Action">Action</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Crime">Crime</option>
+                <option value="Family">Family</option>
+                <option value="Romance">Romance</option>
+                <option value="Animation">Animation</option>
+                <option value="Science Fiction">Science Fiction</option>
+
+
+            </select><br>
+            <input type="text" id="nameFilter" name="search" placeholder="search.." class="px-2">
+        </form>
+        <div id="moviesList" class="grid grid-cols-3 relative top-52 w-11/12 m-auto justify-items-center gap-y-12">
+            
+        </div>
+    </main>
+    <footer>
+        <div class="text-center w-full min-h-2 backgroundColor text-base font-serif">
+            <span>MINDHUB </span>
+        </div>
+    </footer>
+    <!--<script src="../js/data.js"></script>-->
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/51c4455d4f.js" crossorigin="anonymous"></script>
+    <!--<script src="../js/favoritos.js"></script>-->
+
+</body>
+</html>
